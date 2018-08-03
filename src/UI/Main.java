@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		try {
 			System.out.println("添加学生(a)  删除学生(b)  查找学生(c)");
-			System.out.print("请输入操作类型：");
+			System.out.print("请输入操作的类型：");
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 			String type= br.readLine();
 			if("a".equals(type)) {
